@@ -29,11 +29,11 @@
     $gender = $_POST['gender'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $desc = $_POST['desc'];
+    $descr = $_POST['descr'];
 
     
 
-    $sql = "INSERT INTO `trip` (`name`, `age`, `gender`, `email`, `phone`, `desc`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc')";
+    $sql = "INSERT INTO `trip` (`name`, `age`, `gender`, `email`, `phone`, `descr`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$descr')";
     // echo $sql;
 
     // Execute the query
@@ -73,7 +73,7 @@
             <input type="text" name="gender" id="gender" placeholder="Enter your gender">
             <input type="email" name="email" id="email" placeholder="Enter your email">
             <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
-            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+            <textarea name="descr" id="descr" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
             <button class="btn">Submit</button> 
         </form>
     </div>
