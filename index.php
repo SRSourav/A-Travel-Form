@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img class="bg" src="bg.jpg" alt="IIT Kharagpur">
+    <img class="bg" src="bg.jpg" alt="Cox's Bazar">
     <div class="container">
         <h1>Welcome to the Annual Cox's Bazar Tour</h3>
         <p>Enter your details and submit this form to confirm your participation in the Tour </p>
